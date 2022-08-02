@@ -1,0 +1,83 @@
+#ploca{
+    width: 600px;
+    height: 720px;
+    border: 3px solid lightblue;
+    padding: 10px;
+    font-family: 'Verdana';
+    text-align: center;
+    margin: auto;
+}
+
+#igraci {
+    height: 100px;
+    width: 100%;
+    margin:auto;
+}
+
+.igrac{
+    height: 100%;
+    width: 295px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#lijevi{
+    background-color: lightblue;
+    margin-right: 5px;
+}
+
+#desni{
+    background-color: lightgreen;
+    margin-left: 5px;
+    text-align: center;
+}
+
+#igra{
+    height: 600px;
+    width: 100%;
+    border: none;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.cell {
+    width: 190px;
+    height: 190px;
+    margin:3px;
+    background-color: rgb(243, 243, 151);
+    font-size: 140px;
+    cursor: pointer;
+}
+
+.scorebox {
+    width: 35px;
+    height: 25px;
+    background-color: lightgray;
+    margin:auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.button {
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 10px;
+    float: right;
+    margin-right: 20px;
+}
+
+#reset{
+    background-color: lightcoral;
+}
+
+#reset:hover {
+    background-color: rgb(245, 176, 176);
+}
+
+.trenutni{
+    opacity: 0.2;
+}
